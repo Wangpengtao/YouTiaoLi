@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011C80DF7A6A55115AD6B152 /* libPods-YouTiaoLi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E08534F8A8091B2EE2D3F58 /* libPods-YouTiaoLi.a */; };
+		6702EFE11F30264300FE030C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702EFE01F30264300FE030C /* main.m */; };
+		6702EFE41F30264300FE030C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702EFE31F30264300FE030C /* AppDelegate.m */; };
+		6702EFEA1F30264300FE030C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702EFE81F30264300FE030C /* Main.storyboard */; };
+		6702EFEC1F30264300FE030C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6702EFEB1F30264300FE030C /* Assets.xcassets */; };
+		6702EFEF1F30264300FE030C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702EFED1F30264300FE030C /* LaunchScreen.storyboard */; };
+		6702F00D1F302E6E00FE030C /* MBProgressHUD+MeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0041F302E6E00FE030C /* MBProgressHUD+MeHUD.m */; };
+		6702F00E1F302E6E00FE030C /* NSObject+ZYArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0061F302E6E00FE030C /* NSObject+ZYArchiveManager.m */; };
+		6702F00F1F302E6E00FE030C /* UIImage+ImageForColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0081F302E6E00FE030C /* UIImage+ImageForColor.m */; };
+		6702F0101F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F00A1F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.m */; };
+		6702F0111F302E6E00FE030C /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F00C1F302E6E00FE030C /* UIView+Extend.m */; };
+		6702F0151F302F2700FE030C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0141F302F2700FE030C /* MBProgressHUD.m */; };
+		6702F0181F30314100FE030C /* YTLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0171F30314100FE030C /* YTLBaseViewController.m */; };
+		6702F0221F30702000FE030C /* iVersion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6702F01F1F30702000FE030C /* iVersion.bundle */; };
+		6702F0231F30702000FE030C /* iVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0211F30702000FE030C /* iVersion.m */; };
+		6702F0261F30709300FE030C /* YTLBaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0251F30709300FE030C /* YTLBaseListViewController.m */; };
+		6702F0291F3077D200FE030C /* YTLDBmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F0281F3077D200FE030C /* YTLDBmanager.m */; };
+		6702F0301F30799000FE030C /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F02F1F30799000FE030C /* UserInfo.m */; };
+		67FEF64A1F316897007D8E22 /* ViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF6491F316897007D8E22 /* ViewConfig.m */; };
+		67FEF64D1F316921007D8E22 /* RegularVerifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF64C1F316921007D8E22 /* RegularVerifyModel.m */; };
+		67FEF6611F316BD3007D8E22 /* YTLChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF6601F316BD3007D8E22 /* YTLChatVC.m */; };
+		67FEF6641F316BED007D8E22 /* YTLMemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF6631F316BED007D8E22 /* YTLMemoVC.m */; };
+		67FEF6671F316C01007D8E22 /* YTLProjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF6661F316C01007D8E22 /* YTLProjectVC.m */; };
+		67FEF66A1F316C16007D8E22 /* YTLTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF6691F316C16007D8E22 /* YTLTaskVC.m */; };
+		67FEF66D1F316CF4007D8E22 /* YTLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF66C1F316CF4007D8E22 /* YTLTabBarController.m */; };
+		67FEF6771F31A386007D8E22 /* YTLMeCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF6761F31A386007D8E22 /* YTLMeCenterView.m */; };
+		67FEF67B1F31BBDE007D8E22 /* YTLHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF67A1F31BBDD007D8E22 /* YTLHTTP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E08534F8A8091B2EE2D3F58 /* libPods-YouTiaoLi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YouTiaoLi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9FC9349C9170A6FB34D646 /* Pods-YouTiaoLi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTiaoLi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouTiaoLi/Pods-YouTiaoLi.release.xcconfig"; sourceTree = "<group>"; };
+		60CE47EA0AA385F9643F436A /* Pods-YouTiaoLi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTiaoLi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouTiaoLi/Pods-YouTiaoLi.debug.xcconfig"; sourceTree = "<group>"; };
+		6702EFDC1F30264300FE030C /* YouTiaoLi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTiaoLi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6702EFE01F30264300FE030C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6702EFE21F30264300FE030C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6702EFE31F30264300FE030C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6702EFE91F30264300FE030C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6702EFEB1F30264300FE030C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6702EFEE1F30264300FE030C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6702EFF01F30264300FE030C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6702EFF81F30273200FE030C /* YTL_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTL_PrefixHeader.pch; sourceTree = "<group>"; };
+		6702EFF91F30280600FE030C /* YTL_Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTL_Macro.h; sourceTree = "<group>"; };
+		6702EFFA1F30281C00FE030C /* YTL_Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTL_Const.h; sourceTree = "<group>"; };
+		6702F0031F302E6E00FE030C /* MBProgressHUD+MeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MeHUD.h"; sourceTree = "<group>"; };
+		6702F0041F302E6E00FE030C /* MBProgressHUD+MeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MeHUD.m"; sourceTree = "<group>"; };
+		6702F0051F302E6E00FE030C /* NSObject+ZYArchiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYArchiveManager.h"; sourceTree = "<group>"; };
+		6702F0061F302E6E00FE030C /* NSObject+ZYArchiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZYArchiveManager.m"; sourceTree = "<group>"; };
+		6702F0071F302E6E00FE030C /* UIImage+ImageForColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageForColor.h"; sourceTree = "<group>"; };
+		6702F0081F302E6E00FE030C /* UIImage+ImageForColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageForColor.m"; sourceTree = "<group>"; };
+		6702F0091F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		6702F00A1F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		6702F00B1F302E6E00FE030C /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		6702F00C1F302E6E00FE030C /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		6702F0131F302F2700FE030C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6702F0141F302F2700FE030C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6702F0161F30314100FE030C /* YTLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLBaseViewController.h; sourceTree = "<group>"; };
+		6702F0171F30314100FE030C /* YTLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLBaseViewController.m; sourceTree = "<group>"; };
+		6702F01F1F30702000FE030C /* iVersion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iVersion.bundle; sourceTree = "<group>"; };
+		6702F0201F30702000FE030C /* iVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVersion.h; sourceTree = "<group>"; };
+		6702F0211F30702000FE030C /* iVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVersion.m; sourceTree = "<group>"; };
+		6702F0241F30709300FE030C /* YTLBaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLBaseListViewController.h; sourceTree = "<group>"; };
+		6702F0251F30709300FE030C /* YTLBaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLBaseListViewController.m; sourceTree = "<group>"; };
+		6702F0271F3077D200FE030C /* YTLDBmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLDBmanager.h; sourceTree = "<group>"; };
+		6702F0281F3077D200FE030C /* YTLDBmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLDBmanager.m; sourceTree = "<group>"; };
+		6702F02E1F30799000FE030C /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		6702F02F1F30799000FE030C /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		67FEF6481F316897007D8E22 /* ViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConfig.h; sourceTree = "<group>"; };
+		67FEF6491F316897007D8E22 /* ViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewConfig.m; sourceTree = "<group>"; };
+		67FEF64B1F316921007D8E22 /* RegularVerifyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularVerifyModel.h; sourceTree = "<group>"; };
+		67FEF64C1F316921007D8E22 /* RegularVerifyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularVerifyModel.m; sourceTree = "<group>"; };
+		67FEF65F1F316BD3007D8E22 /* YTLChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLChatVC.h; sourceTree = "<group>"; };
+		67FEF6601F316BD3007D8E22 /* YTLChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLChatVC.m; sourceTree = "<group>"; };
+		67FEF6621F316BED007D8E22 /* YTLMemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLMemoVC.h; sourceTree = "<group>"; };
+		67FEF6631F316BED007D8E22 /* YTLMemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLMemoVC.m; sourceTree = "<group>"; };
+		67FEF6651F316C01007D8E22 /* YTLProjectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLProjectVC.h; sourceTree = "<group>"; };
+		67FEF6661F316C01007D8E22 /* YTLProjectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLProjectVC.m; sourceTree = "<group>"; };
+		67FEF6681F316C16007D8E22 /* YTLTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLTaskVC.h; sourceTree = "<group>"; };
+		67FEF6691F316C16007D8E22 /* YTLTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLTaskVC.m; sourceTree = "<group>"; };
+		67FEF66B1F316CF4007D8E22 /* YTLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLTabBarController.h; sourceTree = "<group>"; };
+		67FEF66C1F316CF4007D8E22 /* YTLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLTabBarController.m; sourceTree = "<group>"; };
+		67FEF6751F31A386007D8E22 /* YTLMeCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLMeCenterView.h; sourceTree = "<group>"; };
+		67FEF6761F31A386007D8E22 /* YTLMeCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLMeCenterView.m; sourceTree = "<group>"; };
+		67FEF6781F31BB2D007D8E22 /* YTLNetworkAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLNetworkAction.h; sourceTree = "<group>"; };
+		67FEF6791F31BBDD007D8E22 /* YTLHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLHTTP.h; sourceTree = "<group>"; };
+		67FEF67A1F31BBDD007D8E22 /* YTLHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLHTTP.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6702EFD91F30264300FE030C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011C80DF7A6A55115AD6B152 /* libPods-YouTiaoLi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661F509C96A702E6754795E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60CE47EA0AA385F9643F436A /* Pods-YouTiaoLi.debug.xcconfig */,
+				5D9FC9349C9170A6FB34D646 /* Pods-YouTiaoLi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6702EFD31F30264300FE030C = {
+			isa = PBXGroup;
+			children = (
+				6702EFDE1F30264300FE030C /* YouTiaoLi */,
+				6702EFDD1F30264300FE030C /* Products */,
+				661F509C96A702E6754795E1 /* Pods */,
+				696C0CA1A5545B26FB47BCFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6702EFDD1F30264300FE030C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6702EFDC1F30264300FE030C /* YouTiaoLi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6702EFDE1F30264300FE030C /* YouTiaoLi */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6701F319E84007D8E22 /* CommonView */,
+				6702F0021F302E6E00FE030C /* Category */,
+				6702EFFF1F302DB100FE030C /* Base */,
+				6702EFFC1F302CE600FE030C /* Library */,
+				6702EFFB1F302CDE00FE030C /* Tool */,
+				6702EFFD1F302D0300FE030C /* Main */,
+				6702EFFE1F302D3000FE030C /* Network */,
+				6702EFF71F3026B700FE030C /* Other */,
+				6702EFDF1F30264300FE030C /* Supporting Files */,
+			);
+			path = YouTiaoLi;
+			sourceTree = "<group>";
+		};
+		6702EFDF1F30264300FE030C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6702EFE01F30264300FE030C /* main.m */,
+				6702EFF91F30280600FE030C /* YTL_Macro.h */,
+				6702EFFA1F30281C00FE030C /* YTL_Const.h */,
+				6702EFF81F30273200FE030C /* YTL_PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6702EFF71F3026B700FE030C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6702EFE21F30264300FE030C /* AppDelegate.h */,
+				6702EFE31F30264300FE030C /* AppDelegate.m */,
+				6702EFE81F30264300FE030C /* Main.storyboard */,
+				6702EFEB1F30264300FE030C /* Assets.xcassets */,
+				6702EFED1F30264300FE030C /* LaunchScreen.storyboard */,
+				6702EFF01F30264300FE030C /* Info.plist */,
+				67FEF66B1F316CF4007D8E22 /* YTLTabBarController.h */,
+				67FEF66C1F316CF4007D8E22 /* YTLTabBarController.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6702EFFB1F302CDE00FE030C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6702F0271F3077D200FE030C /* YTLDBmanager.h */,
+				6702F0281F3077D200FE030C /* YTLDBmanager.m */,
+				67FEF6481F316897007D8E22 /* ViewConfig.h */,
+				67FEF6491F316897007D8E22 /* ViewConfig.m */,
+				67FEF64B1F316921007D8E22 /* RegularVerifyModel.h */,
+				67FEF64C1F316921007D8E22 /* RegularVerifyModel.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6702EFFC1F302CE600FE030C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6702F01E1F30702000FE030C /* iVersion */,
+				6702F0121F302F2700FE030C /* MBProgressHUD */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6702EFFD1F302D0300FE030C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6711F319F0E007D8E22 /* MeCenter */,
+				67FEF64E1F316B82007D8E22 /* Chat */,
+				67FEF6521F316B82007D8E22 /* Memo */,
+				67FEF6561F316B82007D8E22 /* Project */,
+				67FEF65A1F316B82007D8E22 /* Task */,
+				6702F02A1F30793300FE030C /* Login */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6702EFFE1F302D3000FE030C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6781F31BB2D007D8E22 /* YTLNetworkAction.h */,
+				67FEF6791F31BBDD007D8E22 /* YTLHTTP.h */,
+				67FEF67A1F31BBDD007D8E22 /* YTLHTTP.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6702EFFF1F302DB100FE030C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6702F0001F302DD700FE030C /* BaseVC */,
+				6702F0011F302DD700FE030C /* BaseView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6702F0001F302DD700FE030C /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				6702F0161F30314100FE030C /* YTLBaseViewController.h */,
+				6702F0171F30314100FE030C /* YTLBaseViewController.m */,
+				6702F0241F30709300FE030C /* YTLBaseListViewController.h */,
+				6702F0251F30709300FE030C /* YTLBaseListViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		6702F0011F302DD700FE030C /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		6702F0021F302E6E00FE030C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6702F0031F302E6E00FE030C /* MBProgressHUD+MeHUD.h */,
+				6702F0041F302E6E00FE030C /* MBProgressHUD+MeHUD.m */,
+				6702F0051F302E6E00FE030C /* NSObject+ZYArchiveManager.h */,
+				6702F0061F302E6E00FE030C /* NSObject+ZYArchiveManager.m */,
+				6702F0071F302E6E00FE030C /* UIImage+ImageForColor.h */,
+				6702F0081F302E6E00FE030C /* UIImage+ImageForColor.m */,
+				6702F0091F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.h */,
+				6702F00A1F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.m */,
+				6702F00B1F302E6E00FE030C /* UIView+Extend.h */,
+				6702F00C1F302E6E00FE030C /* UIView+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6702F0121F302F2700FE030C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6702F0131F302F2700FE030C /* MBProgressHUD.h */,
+				6702F0141F302F2700FE030C /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6702F01E1F30702000FE030C /* iVersion */ = {
+			isa = PBXGroup;
+			children = (
+				6702F01F1F30702000FE030C /* iVersion.bundle */,
+				6702F0201F30702000FE030C /* iVersion.h */,
+				6702F0211F30702000FE030C /* iVersion.m */,
+			);
+			path = iVersion;
+			sourceTree = "<group>";
+		};
+		6702F02A1F30793300FE030C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6702F02B1F30795C00FE030C /* Model */,
+				6702F02C1F30795C00FE030C /* VC */,
+				6702F02D1F30795C00FE030C /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6702F02B1F30795C00FE030C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6702F02E1F30799000FE030C /* UserInfo.h */,
+				6702F02F1F30799000FE030C /* UserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6702F02C1F30795C00FE030C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6702F02D1F30795C00FE030C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67FEF64E1F316B82007D8E22 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF64F1F316B82007D8E22 /* Model */,
+				67FEF6501F316B82007D8E22 /* VC */,
+				67FEF6511F316B82007D8E22 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		67FEF64F1F316B82007D8E22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67FEF6501F316B82007D8E22 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF65F1F316BD3007D8E22 /* YTLChatVC.h */,
+				67FEF6601F316BD3007D8E22 /* YTLChatVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67FEF6511F316B82007D8E22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67FEF6521F316B82007D8E22 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6531F316B82007D8E22 /* Model */,
+				67FEF6541F316B82007D8E22 /* VC */,
+				67FEF6551F316B82007D8E22 /* View */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		67FEF6531F316B82007D8E22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67FEF6541F316B82007D8E22 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6621F316BED007D8E22 /* YTLMemoVC.h */,
+				67FEF6631F316BED007D8E22 /* YTLMemoVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67FEF6551F316B82007D8E22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67FEF6561F316B82007D8E22 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6571F316B82007D8E22 /* Model */,
+				67FEF6581F316B82007D8E22 /* VC */,
+				67FEF6591F316B82007D8E22 /* View */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		67FEF6571F316B82007D8E22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67FEF6581F316B82007D8E22 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6651F316C01007D8E22 /* YTLProjectVC.h */,
+				67FEF6661F316C01007D8E22 /* YTLProjectVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67FEF6591F316B82007D8E22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67FEF65A1F316B82007D8E22 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF65B1F316B82007D8E22 /* Model */,
+				67FEF65C1F316B82007D8E22 /* VC */,
+				67FEF65D1F316B82007D8E22 /* View */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		67FEF65B1F316B82007D8E22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67FEF65C1F316B82007D8E22 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6681F316C16007D8E22 /* YTLTaskVC.h */,
+				67FEF6691F316C16007D8E22 /* YTLTaskVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67FEF65D1F316B82007D8E22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67FEF6701F319E84007D8E22 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		67FEF6711F319F0E007D8E22 /* MeCenter */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6721F319F0E007D8E22 /* Model */,
+				67FEF6731F319F0E007D8E22 /* VC */,
+				67FEF6741F319F0E007D8E22 /* View */,
+			);
+			path = MeCenter;
+			sourceTree = "<group>";
+		};
+		67FEF6721F319F0E007D8E22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67FEF6731F319F0E007D8E22 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67FEF6741F319F0E007D8E22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67FEF6751F31A386007D8E22 /* YTLMeCenterView.h */,
+				67FEF6761F31A386007D8E22 /* YTLMeCenterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		696C0CA1A5545B26FB47BCFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E08534F8A8091B2EE2D3F58 /* libPods-YouTiaoLi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6702EFDB1F30264300FE030C /* YouTiaoLi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6702EFF31F30264300FE030C /* Build configuration list for PBXNativeTarget "YouTiaoLi" */;
+			buildPhases = (
+				5470BA25F5D0D19F84DF33CC /* [CP] Check Pods Manifest.lock */,
+				6702EFD81F30264300FE030C /* Sources */,
+				6702EFD91F30264300FE030C /* Frameworks */,
+				6702EFDA1F30264300FE030C /* Resources */,
+				4DB48576F1E9F821BEAA0A15 /* [CP] Embed Pods Frameworks */,
+				55FA72FECC7FF1E6A1CF14CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTiaoLi;
+			productName = YouTiaoLi;
+			productReference = 6702EFDC1F30264300FE030C /* YouTiaoLi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6702EFD41F30264300FE030C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PT;
+				TargetAttributes = {
+					6702EFDB1F30264300FE030C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D4L838KJ48;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6702EFD71F30264300FE030C /* Build configuration list for PBXProject "YouTiaoLi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6702EFD31F30264300FE030C;
+			productRefGroup = 6702EFDD1F30264300FE030C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6702EFDB1F30264300FE030C /* YouTiaoLi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6702EFDA1F30264300FE030C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702EFEF1F30264300FE030C /* LaunchScreen.storyboard in Resources */,
+				6702EFEC1F30264300FE030C /* Assets.xcassets in Resources */,
+				6702F0221F30702000FE030C /* iVersion.bundle in Resources */,
+				6702EFEA1F30264300FE030C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DB48576F1E9F821BEAA0A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTiaoLi/Pods-YouTiaoLi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5470BA25F5D0D19F84DF33CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55FA72FECC7FF1E6A1CF14CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTiaoLi/Pods-YouTiaoLi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6702EFD81F30264300FE030C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FEF6611F316BD3007D8E22 /* YTLChatVC.m in Sources */,
+				6702F00F1F302E6E00FE030C /* UIImage+ImageForColor.m in Sources */,
+				6702EFE41F30264300FE030C /* AppDelegate.m in Sources */,
+				6702F0291F3077D200FE030C /* YTLDBmanager.m in Sources */,
+				67FEF6671F316C01007D8E22 /* YTLProjectVC.m in Sources */,
+				67FEF66D1F316CF4007D8E22 /* YTLTabBarController.m in Sources */,
+				6702F0181F30314100FE030C /* YTLBaseViewController.m in Sources */,
+				67FEF6771F31A386007D8E22 /* YTLMeCenterView.m in Sources */,
+				6702EFE11F30264300FE030C /* main.m in Sources */,
+				67FEF67B1F31BBDE007D8E22 /* YTLHTTP.m in Sources */,
+				6702F0301F30799000FE030C /* UserInfo.m in Sources */,
+				67FEF6641F316BED007D8E22 /* YTLMemoVC.m in Sources */,
+				67FEF64D1F316921007D8E22 /* RegularVerifyModel.m in Sources */,
+				6702F0261F30709300FE030C /* YTLBaseListViewController.m in Sources */,
+				67FEF64A1F316897007D8E22 /* ViewConfig.m in Sources */,
+				6702F0151F302F2700FE030C /* MBProgressHUD.m in Sources */,
+				6702F0231F30702000FE030C /* iVersion.m in Sources */,
+				67FEF66A1F316C16007D8E22 /* YTLTaskVC.m in Sources */,
+				6702F00D1F302E6E00FE030C /* MBProgressHUD+MeHUD.m in Sources */,
+				6702F0101F302E6E00FE030C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				6702F0111F302E6E00FE030C /* UIView+Extend.m in Sources */,
+				6702F00E1F302E6E00FE030C /* NSObject+ZYArchiveManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6702EFE81F30264300FE030C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6702EFE91F30264300FE030C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6702EFED1F30264300FE030C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6702EFEE1F30264300FE030C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6702EFF11F30264300FE030C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6702EFF21F30264300FE030C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6702EFF41F30264300FE030C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CE47EA0AA385F9643F436A /* Pods-YouTiaoLi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D4L838KJ48;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YouTiaoLi/YTL_PrefixHeader.pch";
+				INFOPLIST_FILE = YouTiaoLi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfengweb.YouTiaoLi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6702EFF51F30264300FE030C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9FC9349C9170A6FB34D646 /* Pods-YouTiaoLi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D4L838KJ48;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YouTiaoLi/YTL_PrefixHeader.pch";
+				INFOPLIST_FILE = YouTiaoLi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfengweb.YouTiaoLi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6702EFD71F30264300FE030C /* Build configuration list for PBXProject "YouTiaoLi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6702EFF11F30264300FE030C /* Debug */,
+				6702EFF21F30264300FE030C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6702EFF31F30264300FE030C /* Build configuration list for PBXNativeTarget "YouTiaoLi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6702EFF41F30264300FE030C /* Debug */,
+				6702EFF51F30264300FE030C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6702EFD41F30264300FE030C /* Project object */;
+}
